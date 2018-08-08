@@ -1,0 +1,40 @@
+<nav class="navbar">
+  <div class="container">
+
+    <div class="content-wrap">
+
+      <div class="logo-wrap">
+        <a [routerLink]="['/']">
+          Instagram
+        </a>
+      </div>
+
+      <div class="search-input-wrap">
+        <app-search-input></app-search-input>
+      </div>
+
+      <div class="icons-wrap">
+
+        <ng-container>
+
+          <button mat-icon-button>
+            <mat-icon aria-label="Explore">explore</mat-icon>
+          </button>
+          <button mat-icon-button>
+            <mat-icon aria-label="Activity">favorite</mat-icon>
+          </button>
+          <button mat-icon-button>
+            <mat-icon aria-label="Profile">person</mat-icon>
+          </button>
+
+        </ng-container>
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+</nav>
+

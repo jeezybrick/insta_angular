@@ -1,0 +1,10 @@
+.search-container {
+  > * {
+    width: 100%;
+  }
+}
+
+.search-icon-wrap > .mat-icon {
+  position: relative;
+  top: 4px;
+}

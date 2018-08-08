@@ -1,0 +1,12 @@
+<div class="search-container">
+
+  <mat-form-field>
+     <span class="search-icon-wrap" matPrefix>
+       <mat-icon aria-label="Search">search</mat-icon> &nbsp;
+     </span>
+    <input matInput placeholder="Поиск"
+           [(ngModel)]="searchString"
+           (ngModelChange)="onFilterTextChanged()">
+  </mat-form-field>
+
+</div>

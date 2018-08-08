@@ -1,0 +1,19 @@
+
+.publication-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.publication-list-wrap {
+  flex-basis: 70%;
+  padding-right: 2em;
+
+  > * {
+    width: 100%;
+  }
+}
+
+.publication-history-list-wrap {
+  display: flex;
+  justify-content: center;
+}
